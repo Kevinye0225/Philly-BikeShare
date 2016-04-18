@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BikeShare</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Fast Bike</string>
+    <string name="menu_makeby">"Made By"</string>
+    <string name="refresh">Refresh</string>
+    <string name="team">Team\nXuye Lin, Yufei Ye</string>
+    <string name="title_activity_madeby">App Info</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.karin.googlemaps.Madeby"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16sp"
+        android:paddingTop="20sp"
+        android:textSize="20sp"
+        android:text="Developers: Xuye Lin, Yufei Ye"/>
+
+
+
+
+    <TextView
+        android:id="@+id/philly_bike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indego"
+        android:paddingLeft="16sp"
+        android:paddingTop="20sp"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Thanks to: Google Maps Android Utility Library"
+        android:paddingLeft="16sp"
+        android:paddingTop="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16sp"
+        android:paddingTop="20sp"
+        android:textSize="20sp"
+        android:text="Bike Network API: OpenDataPhilly"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16sp"
+        android:paddingTop="20sp"
+        android:textSize="20sp"
+        android:text="CIT591 Project"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/feedback"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="16sp"-->
+        <!--android:layout_marginTop="20sp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:onClick=""-->
+        <!--android:text="Send us feedback"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/bikeshare"/>/>
+
+
+</LinearLayout>
